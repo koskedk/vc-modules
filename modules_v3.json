@@ -167,7 +167,6 @@
       }
     ]
   },
-  
 
   {
     "Id": "VirtoCommerce.Search",
@@ -208,7 +207,99 @@
         "ReleaseNotes": ""
       }
     ]
-  }
+  },
 
+  {
+    "Id": "VirtoCommerce.Notifications",
+    "Title": "Notifications module",
+    "Description": "description",
+    "Authors": [
+      "Eugeny Tatarincev",
+      "Andrei Kostyrin"
+    ],
+    "Owners": [
+      "Virto Commerce"
+    ],
+    "LicenseUrl": null,
+    "ProjectUrl": "https://virtocommerce.com/apps/extensions/virto-module-notification",
+    "IconUrl": "Modules/$(VirtoCommerce.Notifications)/Content/logoVC.png",
+    "RequireLicenseAcceptance": false,
+    "Copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+    "Tags": "notifications",
+    "Groups": [
+      "commerce"
+    ],
+    "Versions": [
+      {
+        "Version": "3.201.0",
+        "VersionTag": "",
+        "PlatformVersion": "3.200.0",
+        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-notification/releases/download/3.201.0/VirtoCommerce.Notifications_3.201.0.zip",
+        "Incompatibilities": null,
+        "Dependencies": [
+          {
+            "Id": "VirtoCommerce.Assets",
+            "Version": "3.200.0"
+          }
+        ],
+        "ReleaseNotes": ""
+      },
+      {
+        "Version": "3.202.0",
+        "VersionTag": "alpha.239",
+        "PlatformVersion": "3.200.0",
+        "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Notifications_3.202.0-alpha.239.zip",
+        "Incompatibilities": null,
+        "Dependencies": [
+          {
+            "Id": "VirtoCommerce.Assets",
+            "Version": "3.200.0"
+          }
+        ],
+        "ReleaseNotes": ""
+      }
+    ]
+  },
+
+  {
+    "Id": "VirtoCommerce.Assets",
+    "Title": "Assets module",
+    "Description": "",
+    "Authors": [
+      "Virto Commerce"
+    ],
+    "Owners": [
+      "Virto Commerce"
+    ],
+    "LicenseUrl": null,
+    "ProjectUrl": "https://virtocommerce.com/apps/extensions/vc-module-assets",
+    "IconUrl": "Modules/$(VirtoCommerce.AssetsModule)/Content/logo.png",
+    "RequireLicenseAcceptance": false,
+    "Copyright": "Copyright © 2021 Virto Commerce. All rights reserved",
+    "Tags": "assets",
+    "Groups": [
+      "commerce"
+    ],
+    "Versions": [
+      {
+        "Version": "3.200.0",
+        "VersionTag": "",
+        "PlatformVersion": "3.200.0",
+        "PackageUrl": "https://github.com/VirtoCommerce/vc-module-assets/releases/download/3.200.0/VirtoCommerce.Assets_3.200.0.zip",
+        "Incompatibilities": null,
+        "Dependencies": [],
+        "ReleaseNotes": ""
+      },
+      {
+        "Version": "3.201.0",
+        "VersionTag": "alpha.30",
+        "PlatformVersion": "3.200.0",
+        "PackageUrl": "https://vc3prerelease.blob.core.windows.net/packages/VirtoCommerce.Assets_3.201.0-alpha.30.zip",
+        "Incompatibilities": null,
+        "Dependencies": [],
+        "ReleaseNotes": ""
+      }
+    ]
+  }
 
 ]
